@@ -5,7 +5,7 @@ import type { NominatorValue } from './types';
 
 import React, { useMemo } from 'react';
 
-import { AddressMini, Expander } from '@polkadot/react-components';
+import { AddressMini, ExpanderScroll } from '@polkadot/react-components';
 import { useApi } from '@polkadot/react-hooks';
 import { FormatBalance } from '@polkadot/react-query';
 import { BN, BN_ZERO } from '@polkadot/util';
@@ -31,6 +31,16 @@ function extractFunction (all: NominatorValue[]): null | [number, () => React.Re
     : null;
 }
 
+function sumValue (all: { value: BN }[]): BN {
+  const total = new BN(0);
+
+  for (let i = 0; i < all.length; i++) {
+    total.iadd(all[i].value);
+  }
+
+  return total;
+}
+
 function extractTotals (maxPaid: BN | undefined, nominators: NominatorValue[], stakeOther?: BN): [null | [number, () => React.ReactNode[]], BN, null | [number, () => React.ReactNode[]], BN] {
   const sorted = nominators.sort((a, b) => b.value.cmp(a.value));
 
@@ -40,9 +50,9 @@ function extractTotals (maxPaid: BN | undefined, nominators: NominatorValue[], s
 
   const max = maxPaid.toNumber();
   const rewarded = sorted.slice(0, max);
-  const rewardedTotal = rewarded.reduce((total, { value }) => total.iadd(value), new BN(0));
+  const rewardedTotal = sumValue(rewarded);
   const unrewarded = sorted.slice(max);
-  const unrewardedTotal = unrewarded.reduce((total, { value }) => total.iadd(value), new BN(0));
+  const unrewardedTotal = sumValue(unrewarded);
 
   return [extractFunction(rewarded), rewardedTotal, extractFunction(unrewarded), unrewardedTotal];
 }
@@ -59,7 +69,7 @@ function StakeOther ({ nominators, stakeOther }: Props): React.ReactElement<Prop
     <td className='expand all'>
       {rewarded && (
         <>
-          <Expander
+          <ExpanderScroll
             renderChildren={rewarded[1]}
             summary={
               <FormatBalance
@@ -69,7 +79,7 @@ function StakeOther ({ nominators, stakeOther }: Props): React.ReactElement<Prop
             }
           />
           {unrewarded && (
-            <Expander
+            <ExpanderScroll
               className='stakeOver'
               renderChildren={unrewarded[1]}
               summary={
