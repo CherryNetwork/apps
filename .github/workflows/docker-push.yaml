@@ -31,5 +31,5 @@ jobs:
           IMAGE_TAG: latest
         run: |
           docker build -f docker/Dockerfile -t $ECS_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG .
-          docker push $ECS_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG .
+          docker push $ECS_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG
           
