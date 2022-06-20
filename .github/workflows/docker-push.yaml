@@ -3,7 +3,7 @@ name: Push Production Docker Image to ECR.
 on:
   push:
     branches:
-      - dev
+      - master
 
 jobs:
   build:
@@ -32,4 +32,4 @@ jobs:
         run: |
           docker build -f docker/Dockerfile -t $ECS_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG .
           docker push $ECS_REGISTRY/$ECR_REPOSITORY:$IMAGE_TAG
-          
+
