@@ -53,7 +53,7 @@ export function createProduction (t: TFunction, firstOnly: boolean, withSort: bo
       info: 'cherry',
       text: t('rpc.prod.cherry', 'Cherry Network Mainnet', { ns: 'apps-config' }),
       providers: {
-        'Cherry Labs': 'wss://seeder-1.cherry.place:443'
+        'Cherry Labs': 'wss://seeder-2.cherry.place'
       }
     },
     // {
