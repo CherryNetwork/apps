@@ -1,10 +1,10 @@
 // Copyright 2017-2022 @polkadot/apps-config authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import type { EndpointOption } from './types';
+import type { TFunction } from '../types';
+import type { LinkOption } from './types';
 
-export * from './productionRelayKusama';
-export * from './productionRelayPolkadot';
+import { expandEndpoints } from './util';
 
 /* eslint-disable sort-keys */
 
