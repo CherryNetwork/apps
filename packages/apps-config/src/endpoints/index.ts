@@ -10,9 +10,8 @@ import { createProduction } from './production';
 // import { createKusamaRelay, createPolkadotRelay } from './productionRelays';
 import { createTesting } from './testing';
 // import { createRococoRelay, createWestendRelay } from './testingRelays';
+
 export { CUSTOM_ENDPOINT_KEY } from './development';
-export * from './production';
-export * from './testing';
 
 export function createWsEndpoints (t: TFunction = defaultT, firstOnly = false, withSort = true): LinkOption[] {
   return [
@@ -59,7 +58,7 @@ export function createWsEndpoints (t: TFunction = defaultT, firstOnly = false, w
       textBy: '',
       value: ''
     },
-    ...expandEndpoints(t, prodChains, firstOnly, withSort),
+    ...createProduction(t, firstOnly, withSort),
     {
       isDisabled: false,
       isHeader: true,
@@ -67,7 +66,7 @@ export function createWsEndpoints (t: TFunction = defaultT, firstOnly = false, w
       textBy: '',
       value: ''
     },
-    ...expandEndpoints(t, testChains, firstOnly, withSort),
+    ...createTesting(t, firstOnly, withSort),
     {
       isDevelopment: true,
       isDisabled: false,
