@@ -162,6 +162,8 @@ const nodeBajun = '#161212';
 const nodeBitCountry = '#191a2e';
 const nodeBifrost = '#5a25f0';
 const nodeCentrifuge = '#fcc367';
+const nodeCherryMainnet = '#EA27C3';
+const nodeCherryTestnet = '#EA27C3';
 const nodeCoinversation = '#e6017a';
 const nodeCompetitorsClub = '#213830';
 const nodeCrownSterling = '#13264b';
@@ -270,6 +272,8 @@ export const chainColors: Record<string, string> = Object.entries({
   'Calamari Parachain Testnet': chainCalamari,
   Centrifuge: nodeCentrifuge,
   ChainX: chainChainx,
+  'Cherry Mainnet': nodeCherryMainnet,
+  'Cherry Testnet': nodeCherryTestnet,
   Clover: chainClover,
   Coinversation: chainCoinversation,
   'Competitors Club': chainCompetitorsClub,
@@ -472,6 +476,8 @@ export const nodeColors = Object.entries({
   centrifuge: nodeCentrifuge,
   'centrifuge chain': nodeCentrifuge,
   'Centrifuge Chain Node': nodeCentrifuge,
+  'Cherry Mainnet': nodeCherryMainnet,
+  'Cherry Testnet': nodeCherryMainnet,
   'Circuit Collator': chainT0rn,
   Coinversation: nodeCoinversation,
   'Competitors Club': nodeCompetitorsClub,

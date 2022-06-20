@@ -13,6 +13,8 @@ import chainAcala from './chains/acala.svg';
 import chainAleph from './chains/aleph.svg';
 import chainAltair from './chains/altair.svg';
 import chainAstar from './chains/astar.png';
+import chainCherryNetworkMainnet from './chains/cherry.png';
+import chainCherryNetworkTestnet from './nodes/cherry.png';
 import chainBitgreen from './chains/bitgreen.png';
 import chainBrainstorm from './chains/brainstorm.png';
 import chainCoinversation from './chains/coinversation.png';
@@ -98,7 +100,6 @@ import nodeCrab from './nodes/crab.svg';
 import nodeCrownSterling from './nodes/crown-sterling.png';
 import nodeCrust from './nodes/crust.svg';
 import nodeCrustMaxwell from './nodes/crust-maxwell.svg';
-import nodeCherryMainnet from './nodes/cherry_mainnet.png';
 import nodeCrustParachain from './nodes/crustParachain.svg';
 import nodeDaliTestnet from './nodes/dali.png';
 import nodeDarwinia from './nodes/darwinia.png';
@@ -233,6 +234,8 @@ export const chainLogos = Object.entries({
   'Catalyst Testnet': nodeCentrifuge,
   Centrifuge: nodeCentrifuge,
   ChainX: nodeChainx,
+  'Cherry Mainnet': chainCherryNetworkMainnet,
+  'Cherry Testnet': chainCherryNetworkTestnet,
   'Charcoal Testnet': nodeCentrifuge,
   Coinversation: chainCoinversation,
   'Competitors Club': chainCompetitorsClub,
@@ -242,7 +245,6 @@ export const chainLogos = Object.entries({
   'Creditcoin Testnet': chainCreditcoinTest,
   'Crown Sterling': chainCrownSterling,
   'Crust Maxwell': nodeCrustMaxwell,
-  'Cherry Mainnet': nodeCherryMainnet,
   'Crust PC1': nodeCrust,
   'darwinia crab': nodeCrab,
   'Darwinia Crab PC2': nodeCrab,
@@ -438,6 +440,8 @@ export const nodeLogos = Object.entries({
   'centrifuge chain': nodeCentrifuge,
   'Centrifuge Chain Node': nodeCentrifuge,
   'ChainX Node': nodeChainx,
+  'Cherry Mainnet': chainCherryNetworkMainnet,
+  'Cherry Testnet': chainCherryNetworkTestnet,
   'Clover Node': nodeClover,
   Coinversation: nodeCoinversation,
   'Competitors Club': nodeCompetitorsClub,
@@ -634,6 +638,7 @@ export const namedLogos: Record<string, unknown> = {
   calamari: nodeCalamari,
   centrifuge: nodeCentrifuge,
   chainx: nodeChainx,
+  cherry: chainCherryNetworkMainnet,
   charcoal: nodeCentrifuge,
   clover: nodeClover,
   coinversation: chainCoinversation,
