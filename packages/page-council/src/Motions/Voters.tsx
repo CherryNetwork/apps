@@ -3,11 +3,12 @@
 
 import type { AccountId, MemberCount } from '@polkadot/types/interfaces';
 
-import React, { useCallback, useMemo } from 'react';
+import React, { useMemo } from 'react';
 
-import { AddressMini, ExpanderScroll } from '@polkadot/react-components';
+import { AddressMini, Expander } from '@polkadot/react-components';
 
 import { useTranslation } from '../translate';
+import VotingPower from '@polkadot/react-query/VotingPower';
 
 interface Props {
   isAye?: boolean;
@@ -16,7 +17,7 @@ interface Props {
   threshold: MemberCount;
 }
 
-function Voters ({ isAye, members, threshold, votes }: Props): React.ReactElement<Props> | null {
+function Voters({ isAye, members, threshold, votes }: Props): React.ReactElement<Props> | null {
   const { t } = useTranslation();
 
   const count = useMemo(
@@ -33,30 +34,32 @@ function Voters ({ isAye, members, threshold, votes }: Props): React.ReactElemen
     [isAye, members, threshold, votes]
   );
 
-  const renderVotes = useCallback(
-    () => votes && votes.map((address): React.ReactNode => (
-      <AddressMini
-        key={address.toString()}
-        value={address}
-        withBalance={false}
-      />
-    )),
-    [votes]
-  );
-
   if (!count || !votes.length) {
     return null;
   }
 
   return (
-    <ExpanderScroll
-      renderChildren={renderVotes}
+    <Expander
       summary={
         isAye
           ? t<string>('Aye {{count}}', { replace: { count } })
           : t<string>('Nay {{count}}', { replace: { count } })
       }
-    />
+    >
+      {votes.map((address): React.ReactNode => (
+        <>
+          <AddressMini
+            key={address.toString()}
+            value={address}
+            withBalance={false}
+          />
+          <VotingPower
+            className='ui label'
+            params={address}
+          />
+        </>
+      ))}
+    </Expander>
   );
 }
 
