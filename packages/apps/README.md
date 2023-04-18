@@ -1,1 +1,1 @@
-# @polkadot/apps
+# @cherrynetwork/apps
