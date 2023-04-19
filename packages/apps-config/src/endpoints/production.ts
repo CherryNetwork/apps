@@ -51,7 +51,7 @@ export function createProduction (t: TFunction, firstOnly: boolean, withSort: bo
     {
       dnslink: 'cherry',
       info: 'cherry',
-      text: t('rpc.prod.cherry', 'Cherry Network Mainnet', { ns: 'apps-config' }),
+      text: t('rpc.prod.cherry', 'Cherry Relay Network', { ns: 'apps-config' }),
       providers: {
         'Cherry Labs': 'wss://seeder-2.cherry.place'
       }
