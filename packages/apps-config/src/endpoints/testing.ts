@@ -84,7 +84,7 @@ export function createTesting (t: TFunction, firstOnly: boolean, withSort: boole
     {
       info: 'cherry evm',
       paraId: 254,
-      text: 'Cherry EVM Parachain',
+      text: t('rpc.evm-test.cherry', 'Cherry EVM Parachain', { ns: 'apps-config' }),
       providers: {
         'Cherry Labs': 'wss://evm-testnet.seed.cherrylabs.org/'
       }
