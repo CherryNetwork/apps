@@ -15,6 +15,7 @@ import chainAltair from './chains/altair.svg';
 import chainAstar from './chains/astar.png';
 import chainCherryNetworkMainnet from './chains/cherry.png';
 import chainCherryNetworkTestnet from './nodes/cherry.png';
+import chainCherryEVMTestnet from './nodes/cherry.png';
 import chainBitgreen from './chains/bitgreen.png';
 import chainBrainstorm from './chains/brainstorm.png';
 import chainCoinversation from './chains/coinversation.png';
@@ -236,6 +237,7 @@ export const chainLogos = Object.entries({
   ChainX: nodeChainx,
   'Cherry Mainnet': chainCherryNetworkMainnet,
   'Cherry Testnet': chainCherryNetworkTestnet,
+  'Cherry EVM Parachain Testnet': chainCherryEVMTestnet,
   'Charcoal Testnet': nodeCentrifuge,
   Coinversation: chainCoinversation,
   'Competitors Club': chainCompetitorsClub,
@@ -442,6 +444,7 @@ export const nodeLogos = Object.entries({
   'ChainX Node': nodeChainx,
   'Cherry Mainnet': chainCherryNetworkMainnet,
   'Cherry Testnet': chainCherryNetworkTestnet,
+  'Cherry EVM Parachain Testnet': chainCherryEVMTestnet,
   'Clover Node': nodeClover,
   Coinversation: nodeCoinversation,
   'Competitors Club': nodeCompetitorsClub,
