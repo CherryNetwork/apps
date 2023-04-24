@@ -480,7 +480,7 @@ export const nodeColors = Object.entries({
   'Centrifuge Chain Node': nodeCentrifuge,
   'Cherry Network Mainnet': nodeCherryMainnet,
   'Cherry Network Testnet': nodeCherryTestnet,
-  'Cherry EVM Parachain Testnet': nodeCherryEvmTestnet,
+  'Cherry EVM Testnet': nodeCherryEvmTestnet,
   'Circuit Collator': chainT0rn,
   Coinversation: nodeCoinversation,
   'Competitors Club': nodeCompetitorsClub,
