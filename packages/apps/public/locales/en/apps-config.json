@@ -66,6 +66,7 @@
   "rpc.test.bifrost": "Bifrost Stage Network",
   "rpc.test.bitcountry": "Bit.Country - Metaverse Network",
   "rpc.test.cherry": "Cherry Network Testnet",
+  "rpc.evm-test.cherry": "Cherry EVM Testnet",
   "rpc.test.clover.finance": "Clover",
   "rpc.test.coinversation": "Coinversation",
   "rpc.test.creditcoin": "Creditcoin Testnet",

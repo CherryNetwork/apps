@@ -76,9 +76,17 @@ export function createTesting (t: TFunction, firstOnly: boolean, withSort: boole
     // },
     {
       info: 'cherry',
-      text: t('rpc.test.cherry', 'Cherry Network Testnet', { ns: 'apps-config' }),
+      text: t('rpc.test.cherry', 'Cherry Relay Network', { ns: 'apps-config' }),
       providers: {
         'Cherry Labs': 'wss://testnet.seed.cherrylabs.org/'
+      }
+    },
+    {
+      info: 'cherry evm',
+      paraId: 254,
+      text: t('rpc.evm-test.cherry', 'Cherry EVM Parachain', { ns: 'apps-config' }),
+      providers: {
+        'Cherry Labs': 'wss://evm-testnet.seed.cherrylabs.org/'
       }
     },
     // {
