@@ -236,7 +236,7 @@ export const chainLogos = Object.entries({
   Centrifuge: nodeCentrifuge,
   ChainX: nodeChainx,
   'Cherry Relay Mainnet': chainCherryNetworkMainnet,
-  'Cherry Testnet': chainCherryNetworkTestnet,
+  'Cherry Relay Testnet': chainCherryNetworkTestnet,
   'Cherry EVM Testnet': chainCherryEVMTestnet,
   'Charcoal Testnet': nodeCentrifuge,
   Coinversation: chainCoinversation,
