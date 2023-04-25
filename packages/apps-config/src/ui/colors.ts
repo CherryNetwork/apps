@@ -274,7 +274,7 @@ export const chainColors: Record<string, string> = Object.entries({
   Centrifuge: nodeCentrifuge,
   ChainX: chainChainx,
   'Cherry Relay Mainnet': nodeCherryMainnet,
-  'Cherry Testnet': nodeCherryTestnet,
+  'Cherry Relay Testnet': nodeCherryTestnet,
   'Cherry EVM Testnet': nodeCherryEvmTestnet,
   Clover: chainClover,
   Coinversation: chainCoinversation,
