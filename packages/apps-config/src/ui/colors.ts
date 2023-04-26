@@ -94,6 +94,7 @@ const chainMybank = '#282736';
 const chainMyriad = '#7342CC';
 const chainNFTMart = '#815287';
 const chainNodle = '#1ab394';
+const chainOLI = '#8CC63F';
 const chainOmniBTC = '#6759E9';
 const chainOpal = '#3B9C9D';
 const chainOriginTrail = '#FB5DEB';
@@ -280,6 +281,7 @@ export const chainColors: Record<string, string> = Object.entries({
   'Calamari Parachain Local': chainCalamari,
   'Calamari Parachain Testnet': chainCalamari,
   Centrifuge: nodeCentrifuge,
+  ChainOLI: chainOLI,
   ChainX: chainChainx,
   'Cherry Relay Mainnet': nodeCherryMainnet,
   'Cherry Relay Testnet': nodeCherryTestnet,
@@ -390,6 +392,7 @@ export const chainColors: Record<string, string> = Object.entries({
   'Nodle Parachain': chainNodle,
   'Nodle Testing Parachain': chainNodle,
   Odyssey: nodeOdyssey,
+  'OLI Parachain': chainOLI,
   OmniBTC: chainOmniBTC,
   'Opal Node': chainOpal,
   'OriginTrail Parachain': chainOriginTrail,

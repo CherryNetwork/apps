@@ -42,7 +42,8 @@ import chainLogion from './chains/logion.png';
 import chainMangata from './chains/mangatax.svg';
 import chainMoonsamaDevelopment from './chains/moonsama.png';
 import chainMyriad from './chains/myriad.svg';
-import chainOmniBTC from './chains/ominibtc.svg';
+import chainOLI from './chains/oli.svg';
+import chainOmniBTC from './chains/omnibtc.svg';
 import chainOpal from './chains/opal-logo.png';
 import chainOriginTrail from './chains/origintrail.png';
 import chainOriginTrailTestnet from './chains/origintrail-testnet.png';
@@ -157,7 +158,8 @@ import moonshadow from './nodes/moonshadow.png';
 import mybank from './nodes/mybank.png';
 import nodeNFTMart from './nodes/nftmart.png';
 import nodeNodle from './nodes/nodle.svg';
-import nodeOmniBTC from './nodes/ominibtc.svg';
+import nodeChainOLI from './nodes/oli.svg';
+import nodeOmniBTC from './nodes/omnibtc.svg';
 import nodeUniqueWestend from './nodes/opal-logo.png';
 import nodeOpportunity from './nodes/opportunity.png';
 import nodePangolin from './nodes/pangolin.svg';
@@ -245,6 +247,7 @@ export const chainLogos = Object.entries({
   'Calamari Parachain Testnet': nodeCalamari,
   'Catalyst Testnet': nodeCentrifuge,
   Centrifuge: nodeCentrifuge,
+  ChainOLI: chainOLI,
   ChainX: nodeChainx,
   'Cherry Relay Mainnet': chainCherryNetworkMainnet,
   'Cherry Relay Testnet': chainCherryNetworkTestnet,
@@ -348,6 +351,7 @@ export const chainLogos = Object.entries({
   'NFTMart Staging': nodeNFTMart,
   'NFTMart Testnet': nodeNFTMart,
   Odyssey: nodeAresOdyssey,
+  'OLI Parachain': chainOLI,
   OmniBTC: chainOmniBTC,
   'OPAL by UNIQUE': chainOpal,
   'OriginTrail Parachain': chainOriginTrail,
@@ -460,6 +464,7 @@ export const nodeLogos = Object.entries({
   Centrifuge: nodeCentrifuge,
   'centrifuge chain': nodeCentrifuge,
   'Centrifuge Chain Node': nodeCentrifuge,
+  ChainOLI: nodeChainOLI,
   'ChainX Node': nodeChainx,
   'Cherry Mainnet': chainCherryNetworkMainnet,
   'Cherry Testnet': chainCherryNetworkTestnet,
@@ -665,6 +670,7 @@ export const namedLogos: Record<string, unknown> = {
   brainstorm: chainBrainstorm,
   calamari: nodeCalamari,
   centrifuge: nodeCentrifuge,
+  chainoli: nodeChainOLI,
   chainx: nodeChainx,
   cherry: chainCherryNetworkMainnet,
   charcoal: nodeCentrifuge,
