@@ -10,10 +10,11 @@ export default {
     Acala: 'acala',
     Bifrost: 'bifrost',
     'Darwinia Crab': 'crab',
+    Interlay: 'interlay',
     Karura: 'karura',
     Khala: 'khala',
     Kusama: 'kusama',
-    'Polkadex Main Network': 'polkadex',
+    Phala: 'phala',
     Polkadot: 'polkadot',
     kintsugi: 'kintsugi'
   },

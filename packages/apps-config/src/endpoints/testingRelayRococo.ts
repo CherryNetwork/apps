@@ -17,11 +17,10 @@ import { ROCOCO_GENESIS } from '../api/constants';
 export const testParasRococo: EndpointOption[] = [
   {
     info: 'arctic',
-    isUnreachable: true, // https://github.com/polkadot-js/apps/issues/7420
-    paraId: 3025,
+    paraId: 3015,
     text: 'Arctic',
     providers: {
-      Arctic: 'wss://arctic-rpc-parachain.icenetwork.io:9944'
+      Arctic: 'wss://arctic-rococo-rpc.icenetwork.io'
     }
   },
   {
@@ -90,17 +89,16 @@ export const testParasRococo: EndpointOption[] = [
     }
   },
   {
-    info: 'rococoGM',
-    isUnreachable: true,
-    paraId: 3019,
-    text: 'GM Parachain',
+    info: 'helixstreet',
+    paraId: 3025,
+    text: 'Helixstreet',
     providers: {
-      // 'GM or Die DAO': 'wss://rococo.gmordie.com' // https://github.com/polkadot-js/apps/issues/7716
+      Helixstreet: 'wss://rpc-rococo.helixstreet.io'
     }
   },
   {
     info: 'rococoImbue',
-    paraId: 3017,
+    paraId: 2121,
     text: 'Imbue Network',
     providers: {
       'Imbue Network': 'wss://rococo.imbue.network'
@@ -144,7 +142,7 @@ export const testParasRococo: EndpointOption[] = [
     paraId: 2026,
     text: 'Nodle',
     providers: {
-      OnFinality: 'wss://node-6913072722034561024.lh.onfinality.io/ws?apikey=84d77e2e-3793-4785-8908-5096cffea77a'
+      OnFinality: 'wss://nodle-paradis.api.onfinality.io/public-ws'
     }
   },
   {
