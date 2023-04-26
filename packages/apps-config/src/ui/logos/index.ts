@@ -89,6 +89,7 @@ import nodeArctic from './nodes/arctic.png';
 import nodeAres from './nodes/ares.png';
 import nodeAresGladios from './nodes/ares-gladios.svg';
 import nodeAresMars from './nodes/ares-mars.png';
+import nodeAresOdyssey from './nodes/ares-odyssey.svg';
 import nodeAstar from './nodes/astar.png';
 import nodeAutomata from './nodes/automata.png';
 import nodeBajun from './nodes/bajun.png';
@@ -108,7 +109,7 @@ import nodeCrust from './nodes/crust.svg';
 import nodeCrustMaxwell from './nodes/crust-maxwell.svg';
 import nodeCrustParachain from './nodes/crustParachain.svg';
 import nodeDaliTestnet from './nodes/dali.png';
-import nodeDarwinia from './nodes/darwinia.png';
+import nodeDarwinia from './nodes/darwinia.svg';
 import nodeDataHighway from './nodes/datahighway.png';
 import nodeDockMainnet from './nodes/dock-mainnet.png';
 import nodeDockTestnet from './nodes/dock-testnet.png';
@@ -224,6 +225,7 @@ export const chainLogos = Object.entries({
   'Apron PC1': nodeApron,
   Arctic: nodeArctic,
   'Ares Gladios': nodeAresGladios,
+  'Ares Odyssey': nodeAresOdyssey,
   'Ares PC1': nodeAres,
   Astar: chainAstar,
   Automata: nodeAutomata,
@@ -344,7 +346,7 @@ export const chainLogos = Object.entries({
   NFTMart: nodeNFTMart,
   'NFTMart Staging': nodeNFTMart,
   'NFTMart Testnet': nodeNFTMart,
-  Odyssey: nodeAresGladios,
+  Odyssey: nodeAresOdyssey,
   OmniBTC: chainOmniBTC,
   'OPAL by UNIQUE': chainOpal,
   'OriginTrail Parachain': chainOriginTrail,
@@ -383,6 +385,7 @@ export const chainLogos = Object.entries({
   soonsocialX: nodeSoonsocialX,
   SORA: nodeSora,
   'SORA Kusama': nodeSora,
+  'SORA Rococo': nodeSora,
   Spanner: chainSpanner,
   Statemine: nodeStatemine,
   'Statemine Test': nodeStatemine,
@@ -438,6 +441,7 @@ export const nodeLogos = Object.entries({
   Arctic: nodeArctic,
   'Ares Gladios': nodeAresGladios,
   'Ares Node': nodeAres,
+  'Ares Odyssey': nodeAresOdyssey,
   'Ares Parachain Collator': nodeAres,
   Astar: nodeAstar,
   'Automata ContextFree Node': nodeAutomata,
@@ -646,6 +650,7 @@ export const namedLogos: Record<string, unknown> = {
   amplitude: chainAmplitude,
   arctic: nodeArctic,
   'Ares Gladios': nodeAresGladios,
+  'Ares Odyssey': nodeAresOdyssey,
   astar: chainAstar,
   automata: nodeAutomata,
   'automata-contextfree': nodeAutomata,
@@ -745,7 +750,7 @@ export const namedLogos: Record<string, unknown> = {
   myriad: chainMyriad,
   nftmart: nodeNFTMart,
   nodle: nodeNodle,
-  odyssey: nodeAresGladios,
+  odyssey: nodeAresOdyssey,
   omnibtc: nodeOmniBTC,
   opal: nodeUniqueWestend,
   opportunity: nodeOpportunity,
@@ -819,6 +824,7 @@ export const namedLogos: Record<string, unknown> = {
   rococoPolkaFoundry: nodePolkaFoundry,
   rococoPrism: nodePrism,
   rococoSingLavender: nodeSingLavender,
+  rococoSora: nodeSora,
   rococoSpreehafen: chainRoccoDataHighway,
   rococoStandard: chainStandard,
   rococoStatemint: nodeStatemine,

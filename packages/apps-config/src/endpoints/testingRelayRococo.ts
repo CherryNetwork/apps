@@ -73,14 +73,6 @@ export const testParasRococo: EndpointOption[] = [
     }
   },
   {
-    info: 'rocfinity',
-    paraId: 2021,
-    text: 'Efinity',
-    providers: {
-      Efinity: 'wss://rpc.rococo.efinity.io'
-    }
-  },
-  {
     info: 'rococoGenshiro',
     paraId: 2024,
     text: 'Genshiro Rococo Testnet',
@@ -180,6 +172,14 @@ export const testParasRococo: EndpointOption[] = [
     }
   },
   {
+    info: 'rocfinity',
+    paraId: 2021,
+    text: 'Rocfinity',
+    providers: {
+      Efinity: 'wss://rpc.rococo.efinity.io'
+    }
+  },
+  {
     info: 'snowbridge',
     paraId: 3016,
     text: 'Snowbridge',
@@ -193,6 +193,14 @@ export const testParasRococo: EndpointOption[] = [
     text: 'SoonsocialX',
     providers: {
       DappForce: 'wss://rco-para.subsocial.network'
+    }
+  },
+  {
+    info: 'rococoSora',
+    paraId: 2011,
+    text: 'SORA Rococo Parachain',
+    providers: {
+      Soramitsu: 'wss://ws.parachain-collator-1.c1.stg1.sora2.soramitsu.co.jp'
     }
   },
   {
