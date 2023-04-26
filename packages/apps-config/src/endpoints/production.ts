@@ -15,7 +15,8 @@ import { expandEndpoints } from './util';
 //   providers: The actual hosted secure websocket endpoint
 //
 // IMPORTANT: Alphabetical based on text
-export const prodChains: EndpointOption[] = [
+export function createProduction (t: TFunction, firstOnly: boolean, withSort: boolean): LinkOption[] {
+  return expandEndpoints(t, [
   // {
   //   info: 'aleph',
   //   text: 'Aleph Zero',
@@ -49,7 +50,7 @@ export const prodChains: EndpointOption[] = [
   {
     dnslink: 'cherry',
     info: 'cherry',
-    text: 'Cherry Relay Network',
+    text: t('rpc.prod.cherry', 'Cherry Relay Network', { ns: 'apps-config' }),
     providers: {
       'Cherry Labs': 'wss://seeder-2.cherry.place'
     }
@@ -323,4 +324,5 @@ export const prodChains: EndpointOption[] = [
   //     DataHighway: 'wss://westlake.datahighway.com'
   //   }
   // }
-];
+  ], firstOnly, withSort);
+}

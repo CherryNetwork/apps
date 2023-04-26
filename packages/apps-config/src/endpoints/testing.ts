@@ -15,7 +15,8 @@ import { expandEndpoints } from './util';
 //   providers: The actual hosted secure websocket endpoint
 //
 // IMPORTANT: Alphabetical based on text
-export const testChains: EndpointOption[] = [
+export function createTesting (t: TFunction, firstOnly: boolean, withSort: boolean): LinkOption[] {
+  return expandEndpoints(t, [
   // {
   //   info: 'ajuna',
   //   text: 'Ajuna Testnet',
@@ -32,7 +33,7 @@ export const testChains: EndpointOption[] = [
   // },
   {
     info: 'cherry',
-    text: 'Cherry Relay Network',
+    text: t('rpc.test.cherry', 'Cherry Relay Network', { ns: 'apps-config' }),
     providers: {
       'Cherry Labs': 'wss://testnet.seed.cherrylabs.org/'
     }
@@ -40,7 +41,7 @@ export const testChains: EndpointOption[] = [
   {
     info: 'cherry evm',
     paraId: 254,
-    text: 'Cherry EVM Parachain',
+    text: t('rpc.evm-test.cherry', 'Cherry EVM Parachain', { ns: 'apps-config' }),
     providers: {
       'Cherry Labs': 'wss://evm-testnet.seed.cherrylabs.org/'
     }
@@ -639,4 +640,5 @@ export const testChains: EndpointOption[] = [
   //     ZERO: 'wss://alphaville.zero.io'
   //   }
   // }
-];
+  ], firstOnly, withSort);
+}
