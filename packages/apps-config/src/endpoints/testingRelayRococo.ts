@@ -41,6 +41,14 @@ export const testParasRococo: EndpointOption[] = [
     }
   },
   {
+    info: 'rococoBifrost',
+    paraId: 2001,
+    text: 'Bifrost',
+    providers: {
+      Liebi: 'wss://bifrost-rpc.rococo.liebi.com/ws'
+    }
+  },
+  {
     info: 'rococoBitgreen',
     paraId: 3024,
     text: 'Bitgreen',
@@ -57,6 +65,14 @@ export const testParasRococo: EndpointOption[] = [
     }
   },
   {
+    info: 'rococoCrust',
+    paraId: 2012,
+    text: 'Crust Testnet',
+    providers: {
+      Crust: 'wss://rococo-csm.crustcode.com/'
+    }
+  },
+  {
     info: 'rococoDali',
     paraId: 2087,
     text: 'Dali',
@@ -70,6 +86,14 @@ export const testParasRococo: EndpointOption[] = [
     text: 'Dolphin',
     providers: {
       'Manta Network': 'wss://ws.rococo.dolphin.engineering'
+    }
+  },
+  {
+    info: 'Eggnet',
+    paraId: 4006,
+    text: 'Eggnet Parachain',
+    providers: {
+      Webb: 'wss://rococo1.webb.tools'
     }
   },
   {
@@ -216,6 +240,14 @@ export const testParasRococo: EndpointOption[] = [
     text: 'Spreehafen',
     providers: {
       DataHighway: 'wss://spreehafen.datahighway.com'
+    }
+  },
+  {
+    info: 'rococoSubzero',
+    paraId: 4040,
+    text: 'Subzero',
+    providers: {
+      ZERO: 'wss://staging.para.sub.zero.io'
     }
   },
   {
