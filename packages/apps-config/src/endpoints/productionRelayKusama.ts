@@ -39,7 +39,8 @@ export const prodParasKusama: EndpointOption[] = [
     paraId: 2119,
     text: 'Bajun Network',
     providers: {
-      AjunaNetwork: 'wss://rpc-parachain.bajun.network'
+      AjunaNetwork: 'wss://rpc-parachain.bajun.network',
+      Dwellir: 'wss://bajun-rpc.dwellir.com'
     }
   },
   {
@@ -71,7 +72,6 @@ export const prodParasKusama: EndpointOption[] = [
     paraId: 2096,
     text: 'Bit.Country Pioneer',
     providers: {
-      'Bit.Country': 'wss://pioneer-1-rpc.bit.country',
       OnFinality: 'wss://pioneer.api.onfinality.io/public-ws'
     }
   },
@@ -81,8 +81,7 @@ export const prodParasKusama: EndpointOption[] = [
     paraId: 2084,
     text: 'Calamari',
     providers: {
-      'Manta Network': 'wss://ws.calamari.systems/',
-      OnFinality: 'wss://calamari.api.onfinality.io/public-ws'
+      'Manta Network': 'wss://ws.calamari.systems/'
     }
   },
   {
@@ -386,9 +385,10 @@ export const prodParasKusama: EndpointOption[] = [
     text: 'Shiden',
     providers: {
       StakeTechnologies: 'wss://rpc.shiden.astar.network',
+      Blast: 'wss://shiden.public.blastapi.io',
+      Dwellir: 'wss://shiden-rpc.dwellir.com',
       OnFinality: 'wss://shiden.api.onfinality.io/public-ws',
-      Pinknode: 'wss://public-rpc.pinknode.io/shiden',
-      Dwellir: 'wss://shiden-rpc.dwellir.com'
+      Pinknode: 'wss://public-rpc.pinknode.io/shiden'
     }
   },
   {
@@ -452,7 +452,6 @@ export const prodParasKusama: EndpointOption[] = [
     text: 'Turing Network',
     providers: {
       OAK: 'wss://rpc.turing.oak.tech',
-      OnFinality: 'wss://turing.api.onfinality.io/public-ws',
       Dwellir: 'wss://turing-rpc.dwellir.com'
     }
   },

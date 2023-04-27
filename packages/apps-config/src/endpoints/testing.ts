@@ -1,10 +1,7 @@
 // Copyright 2017-2022 @polkadot/apps-config authors & contributors
 // SPDX-License-Identifier: Apache-2.0
 
-import type { TFunction } from '../types';
-import type { EndpointOption, LinkOption } from './types';
-
-import { expandEndpoints } from './util';
+import type { EndpointOption } from './types';
 
 /* eslint-disable sort-keys */
 
@@ -15,8 +12,7 @@ import { expandEndpoints } from './util';
 //   providers: The actual hosted secure websocket endpoint
 //
 // IMPORTANT: Alphabetical based on text
-export function createTesting (t: TFunction, firstOnly: boolean, withSort: boolean): LinkOption[] {
-  return expandEndpoints(t, [
+export const testChains: EndpointOption[] = [
   // {
   //   info: 'ajuna',
   //   text: 'Ajuna Testnet',
@@ -33,7 +29,7 @@ export function createTesting (t: TFunction, firstOnly: boolean, withSort: boole
   // },
   {
     info: 'cherry',
-    text: t('rpc.test.cherry', 'Cherry Relay Network', { ns: 'apps-config' }),
+    text: 'Cherry Relay Network',
     providers: {
       'Cherry Labs': 'wss://testnet.seed.cherrylabs.org/'
     }
@@ -41,7 +37,7 @@ export function createTesting (t: TFunction, firstOnly: boolean, withSort: boole
   {
     info: 'cherry evm',
     paraId: 254,
-    text: t('rpc.evm-test.cherry', 'Cherry EVM Parachain', { ns: 'apps-config' }),
+    text: 'Cherry EVM Parachain',
     providers: {
       'Cherry Labs': 'wss://evm-testnet.seed.cherrylabs.org/'
     }
@@ -640,5 +636,5 @@ export function createTesting (t: TFunction, firstOnly: boolean, withSort: boole
   //     ZERO: 'wss://alphaville.zero.io'
   //   }
   // }
-  ], firstOnly, withSort);
-}
+  ];
+  
