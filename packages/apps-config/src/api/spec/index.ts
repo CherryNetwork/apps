@@ -78,6 +78,7 @@ import mybank from './mybank';
 import neatcoin from './neatcoin';
 import nftmart from './nftmart';
 import nodle from './nodle';
+import oak from './oak';
 import opal from './opal';
 import opportunity from './opportunity';
 import origintrail from './origintrail';
@@ -96,6 +97,7 @@ import quartz from './quartz';
 import realis from './realis';
 import riochain from './riochain';
 import robonomics from './robonomics';
+import rootnet from './rootnet';
 import shibuya from './shibuya';
 import shiden from './shiden';
 import snowbridge from './snowbridge';
@@ -230,6 +232,7 @@ const spec: Record<string, OverrideBundleDefinition> = {
   'node-moonbeam': moonbeam,
   'node-polkadex': polkadex,
   'nodle-chain': nodle,
+  oak,
   opal,
   opportunity,
   'origintrail-parachain': origintrail,
@@ -246,6 +249,7 @@ const spec: Record<string, OverrideBundleDefinition> = {
   realis,
   'riochain-runtime': riochain,
   robonomics,
+  root: rootnet,
   shibuya,
   shiden,
   snowbridge,
@@ -274,6 +278,7 @@ const spec: Record<string, OverrideBundleDefinition> = {
   'unit-parachain': unitv,
   unorthodox: standard,
   vanilla: parallel,
+  vara: standard,
   vodka,
   'web3games-node': web3games,
   'zcloak-network': zCloak,
