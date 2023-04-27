@@ -12,12 +12,12 @@ import { sanitize } from '../util';
 import chainAcala from './chains/acala.svg';
 import chainAleph from './chains/aleph.svg';
 import chainAltair from './chains/altair.svg';
+import chainAmplitude from './chains/amplitude.svg';
 import chainAstar from './chains/astar.png';
-import chainCherryNetworkMainnet from './chains/cherry.png';
-import chainCherryNetworkTestnet from './nodes/cherry.png';
-import chainCherryEVMTestnet from './nodes/cherry.png';
+import chainAventus from './chains/aventus.svg';
 import chainBitgreen from './chains/bitgreen.png';
 import chainBrainstorm from './chains/brainstorm.png';
+import chainCherryNetworkMainnet from './chains/cherry.png';
 import chainCoinversation from './chains/coinversation.png';
 import chainCompetitorsClub from './chains/competitors-club.png';
 import chainComposableFinance from './chains/composableFinance.png';
@@ -34,19 +34,26 @@ import chainGenshiro from './chains/genshiro.svg';
 import chainGM from './chains/gm.png';
 import chainHydrate from './chains/hydrate.png';
 import chainInterlay from './chains/interlay.svg';
+import chainKabocha from './chains/kabocha.svg';
 import chainKarura from './chains/karura.svg';
 import chainKico from './chains/kico.png';
 import chainKintsugi from './chains/kintsugi.png';
 import chainKusama from './chains/kusama-128.gif';
 import chainListen from './chains/listen.png';
+import chainLogion from './chains/logion.png';
 import chainMangata from './chains/mangatax.svg';
 import chainMoonsamaDevelopment from './chains/moonsama.png';
+import chainMyriad from './chains/myriad.svg';
+import chainOAK from './chains/oak.png';
+import chainOLI from './chains/oli.svg';
+import chainOmniBTC from './chains/omnibtc.svg';
 import chainOpal from './chains/opal-logo.png';
 import chainOriginTrail from './chains/origintrail.png';
 import chainOriginTrailTestnet from './chains/origintrail-testnet.png';
 import chainParallel from './chains/parallel.svg';
 import chainPicasso from './chains/picasso.svg';
 import chainQuartz from './chains/quartz.png';
+import chainRocfinity from './chains/rocfinity.svg';
 import chainRococo from './chains/rococo.svg';
 import chainRococoContracts from './chains/rococo-contracts.png';
 import chainRococoTick from './chains/rococo-tick.svg';
@@ -60,23 +67,29 @@ import chainSpanner from './chains/spanner.png';
 import chainStandard from './chains/standard.png';
 import chainT0rn from './chains/t0rn.png';
 import chainKusamaDataHighway from './chains/tanganika.png';
+import chainTinker from './chains/tinker.png';
 import nodeTotem from './chains/totem.svg';
 import chainTuring from './chains/turing.png';
 import chainUnique from './chains/unique.svg';
 import chainUnorthodox from './chains/unorthodox.png';
+import chainVara from './chains/vara.svg';
 import chainVirto from './chains/virto.png';
+import chainWatr from './chains/watr.png';
+import chainEggnet from './chains/webb.png';
+import chainWestendColl from './chains/westend-collectives.png';
 import extensionPolkadotJs from './extensions/polkadot-js.svg';
 import externalCommonwealth from './external/commonwealth.png';
 import externalDotreasury from './external/dotreasury.svg';
 import externalDotScanner from './external/dotscanner.png';
 import externalKodaDot from './external/kodadot.png';
+import externalPolkaholic from './external/polkaholic.png';
 import externalPolkascan from './external/polkascan.png';
 import externalPolkassembly from './external/polkassembly.png';
 import externalPolkastats from './external/polkastats.png';
 import externalSingular from './external/singular.svg';
 import externalStatescan from './external/statescan.svg';
 import externalSubId from './external/subid.svg';
-import externalSubscan from './external/subscan.svg';
+import externalSubscan from './external/subscan.png';
 import externalSubsquare from './external/subsquare.svg';
 import nodeAjuna from './nodes/ajuna.png';
 import nodeApron from './nodes/apron.png';
@@ -84,26 +97,32 @@ import nodeArctic from './nodes/arctic.png';
 import nodeAres from './nodes/ares.png';
 import nodeAresGladios from './nodes/ares-gladios.svg';
 import nodeAresMars from './nodes/ares-mars.png';
+import nodeAresOdyssey from './nodes/ares-odyssey.svg';
 import nodeAstar from './nodes/astar.png';
 import nodeAutomata from './nodes/automata.png';
+import nodeAventus from './nodes/aventus.svg';
 import nodeBajun from './nodes/bajun.png';
 import nodeBasilisk from './nodes/basilisk.png';
 import nodeBeast from './nodes/beast.svg';
 import nodeBifrost from './nodes/bifrost.svg';
-import nodeBitCountry from './nodes/bitcountry.svg';
+import nodeBitCountry from './nodes/bitcountry.png';
 import nodeCalamari from './nodes/calamari.png';
 import nodeCentrifuge from './nodes/centrifuge.png';
+import nodeCESS from './nodes/cess.png';
 import nodeChainx from './nodes/chainx.svg';
+import chainCherryNetworkTestnet from './nodes/cherry.png';
+import chainCherryEVMTestnet from './nodes/cherry.png';
 import nodeClover from './nodes/clover.svg';
 import nodeCoinversation from './nodes/coinversation.png';
 import nodeCompetitorsClub from './nodes/competitors-club.png';
+import nodeConfti from './nodes/confti.svg';
 import nodeCrab from './nodes/crab.svg';
 import nodeCrownSterling from './nodes/crown-sterling.png';
 import nodeCrust from './nodes/crust.svg';
 import nodeCrustMaxwell from './nodes/crust-maxwell.svg';
 import nodeCrustParachain from './nodes/crustParachain.svg';
 import nodeDaliTestnet from './nodes/dali.png';
-import nodeDarwinia from './nodes/darwinia.png';
+import nodeDarwinia from './nodes/darwinia.svg';
 import nodeDataHighway from './nodes/datahighway.png';
 import nodeDockMainnet from './nodes/dock-mainnet.png';
 import nodeDockTestnet from './nodes/dock-testnet.png';
@@ -114,15 +133,19 @@ import nodeEdgeware from './nodes/edgeware-white.png';
 import nodeEfinity from './nodes/efinity.svg';
 import nodeEncointer from './nodes/encointer-blue.svg';
 import nodeFantour from './nodes/fantour.png';
+import nodeFrequency from './nodes/frequencyRococo.png';
 import nodeGalital from './nodes/galital-logo.png';
 import nodeGamePower from './nodes/gamepower.svg';
 import nodeGeek from './nodes/geek.svg';
 import nodeHanonycash from './nodes/hanonycash.svg';
+import nodeHelixstreet from './nodes/helixstreet.png';
 import nodeIdavoll from './nodes/idavoll.png';
 import nodeImbue from './nodes/imbue.png';
 import nodeIntegritee from './nodes/integritee.svg';
 import nodeInterBTC from './nodes/interlay.svg';
+import nodeIPCI from './nodes/ipci.svg';
 import nodeIpse from './nodes/ipse.png';
+import nodeJaz from './nodes/jaz.png';
 import nodeJoystream from './nodes/joystream.svg';
 import nodeJupiter from './nodes/jupiter.svg';
 import nodeKabocha from './nodes/kabocha.svg';
@@ -139,6 +162,7 @@ import nodeLitmus from './nodes/litmus.png';
 import nodeLoomNetwork from './nodes/loom_network.png';
 import nodeManta from './nodes/manta.png';
 import nodeMath from './nodes/math.svg';
+import nodeMd5 from './nodes/md5.png';
 import nodeMinix from './nodes/minix.png';
 import moonbase from './nodes/moonbase_alpha.png';
 import moonbeam from './nodes/moonbeam.png';
@@ -148,6 +172,8 @@ import moonshadow from './nodes/moonshadow.png';
 import mybank from './nodes/mybank.png';
 import nodeNFTMart from './nodes/nftmart.png';
 import nodeNodle from './nodes/nodle.svg';
+import nodeChainOLI from './nodes/oli.svg';
+import nodeOmniBTC from './nodes/omnibtc.svg';
 import nodeUniqueWestend from './nodes/opal-logo.png';
 import nodeOpportunity from './nodes/opportunity.png';
 import nodePangolin from './nodes/pangolin.svg';
@@ -158,7 +184,6 @@ import nodePhala from './nodes/phala.svg';
 import nodePhoenix from './nodes/phoenix.png';
 import nodePichiu from './nodes/pichiu.png';
 import nodePioneerNetwork from './nodes/pioneer.png';
-import nodePlasm from './nodes/plasm.png';
 import nodePolkadex from './nodes/polkadex.svg';
 import nodePolkadot from './nodes/polkadot-circle.svg';
 import nodePolkadotJs from './nodes/polkadot-js.svg';
@@ -171,11 +196,13 @@ import nodeQuartz from './nodes/quartz.png';
 import nodeRealis from './nodes/realis.png';
 import nodeRiochain from './nodes/riochain.svg';
 import nodeRobonomics from './nodes/robonomics.svg';
+import nodeRocfinity from './nodes/rocfinity.svg';
 import nodeSakura from './nodes/sakura.svg';
 import nodeShadow from './nodes/shadow.svg';
 import nodeShell from './nodes/shell.svg';
 import nodeSherpax from './nodes/sherpax.png';
 import nodeSingLavender from './nodes/singlavender.svg';
+import nodeSnow from './nodes/snow.png';
 import nodeSoonsocial from './nodes/soonsocial.png';
 import nodeSoonsocialX from './nodes/soonsocialX.png';
 import nodeSora from './nodes/sora-substrate.svg';
@@ -195,6 +222,7 @@ import nodeUniarts from './nodes/uniarts.png';
 import nodeUnique from './nodes/unique.svg';
 import nodeUnitv from './nodes/unitv.png';
 import nodeVln from './nodes/valiu.png';
+import nodeVara from './nodes/vara.svg';
 import nodeWeb3games from './nodes/web3games.svg';
 import nodeWestend from './nodes/westend_colour.svg';
 import nodeWestlake from './nodes/westlake.png';
@@ -213,20 +241,25 @@ export const chainLogos = Object.entries({
   'Aleph Zero': chainAleph,
   'Aleph Zero Testnet': chainAleph,
   Altair: chainAltair,
+  Amplitude: chainAmplitude,
   'Apron PC1': nodeApron,
   Arctic: nodeArctic,
   'Ares Gladios': nodeAresGladios,
+  'Ares Odyssey': nodeAresOdyssey,
   'Ares PC1': nodeAres,
   Astar: chainAstar,
   Automata: nodeAutomata,
   'Automata ContextFree': nodeAutomata,
+  Aventus: chainAventus,
   'Bajun Testnet': nodeBajun,
   'Beast Developer': nodeBeast,
   Bifrost: nodeBifrost,
   'Bifrost Asgard CC4': nodeBifrost,
+  'Bifrost K Rococo': nodeBifrost,
   'Bifrost Kusama': nodeBifrost,
   'Bifrost Polkadot': nodeBifrost,
   'Bifrost Stage Testnet': nodeBifrost,
+  Bitgreen: chainBitgreen,
   BitgreenRococo: chainBitgreen,
   'Calamari Parachain': nodeCalamari,
   'Calamari Parachain Development': nodeCalamari,
@@ -234,6 +267,8 @@ export const chainLogos = Object.entries({
   'Calamari Parachain Testnet': nodeCalamari,
   'Catalyst Testnet': nodeCentrifuge,
   Centrifuge: nodeCentrifuge,
+  'CESS Testnet': nodeCESS,
+  ChainOLI: chainOLI,
   ChainX: nodeChainx,
   'Cherry Relay Mainnet': chainCherryNetworkMainnet,
   'Cherry Relay Testnet': chainCherryNetworkTestnet,
@@ -243,13 +278,16 @@ export const chainLogos = Object.entries({
   'Competitors Club': chainCompetitorsClub,
   'Composable Finance': chainComposableFinance,
   'Contracts on Rococo': chainRococoContracts,
+  'Crab Parachain': nodeCrab,
   Creditcoin: chainCreditcoin,
   'Creditcoin Testnet': chainCreditcoinTest,
   'Crown Sterling': chainCrownSterling,
   'Crust Maxwell': nodeCrustMaxwell,
   'Crust PC1': nodeCrust,
+  'Crust Testnet': nodeCrustParachain,
   'darwinia crab': nodeCrab,
   'Darwinia Crab PC2': nodeCrab,
+  'Darwinia Parachain': nodeDarwinia,
   'Darwinia PC2': nodeDarwinia,
   DataHighway: nodeDataHighway,
   'DataHighway Spreehafen Rococo Parachain Testnet': chainRoccoDataHighway,
@@ -257,6 +295,7 @@ export const chainLogos = Object.entries({
   'Dolphin Testnet': nodeDolphin,
   'Dora Factory': chainDorafactory,
   Efinity: chainEfinity,
+  'Egg Rococo': chainEggnet,
   Equilibrium: chainEquilibrium,
   'Equilibrium parachain': chainEquilibrium,
   EquilibriumTestnet: chainEquilibrium,
@@ -266,21 +305,23 @@ export const chainLogos = Object.entries({
   Geminis: chainGeminis,
   Genshiro: chainGenshiro,
   'Genshiro Rococo Testnet': chainGenshiro,
-  'GM Rococo Parachain': chainGM,
+  'GM Parachain': chainGM,
+  helixstreet: nodeHelixstreet,
   HydraDX: chainSnakenet,
-  'HydraDX Hydrate': chainHydrate,
-  'HydraDX Snakenet': chainSnakenet,
-  'HydraDX Snakenet Gen2': chainSnakenet,
-  'HydraDX Snakenet Gen3': chainSnakenet,
+  'HydraDX testnet': chainHydrate,
   Idavoll: nodeIdavoll,
   'Imbue Testnet': nodeImbue,
   InterBTC: nodeInterBTC,
   'InterBTC Staging': nodeInterBTC,
   Interlay: chainInterlay,
   'InvArch Brainstorm Testnet': chainBrainstorm,
+  'InvArch Tinker Network': chainTinker,
+  ipci: nodeIPCI,
   IpseTestnet: nodeIpse,
   'Jupiter A1': nodeJupiter,
   'Jupiter PC1': nodeJupiter,
+  Kabocha: chainKabocha,
+  'Kabocha (kabsoup)': chainKabocha,
   Kapex: nodeTotem,
   Karura: chainKarura,
   Kerria: chainParallel,
@@ -301,7 +342,6 @@ export const chainLogos = Object.entries({
   'Kusama CC3': chainKusama,
   kusari: nodeKusari,
   'Kylin Testnet': nodeKylin,
-  Lego: nodeTotem,
   'Listen Network': chainListen,
   Litentry: nodeLitentry,
   'Litentry-rococo': nodeLitentry,
@@ -318,6 +358,7 @@ export const chainLogos = Object.entries({
   MathChain: nodeMath,
   'MathChain PC1': nodeMath,
   'mathchain-galois': nodeMath,
+  MD5: nodeMd5,
   Minix: nodeMinix,
   'Minix Testnet': nodeMinix,
   'Moonbase Alpha': moonbase,
@@ -329,10 +370,14 @@ export const chainLogos = Object.entries({
   'Moonsama Development': chainMoonsamaDevelopment,
   Moonshadow: moonshadow,
   'mybank.network PC1': mybank,
+  Myriad: chainMyriad,
   NFTMart: nodeNFTMart,
   'NFTMart Staging': nodeNFTMart,
   'NFTMart Testnet': nodeNFTMart,
-  Odyssey: nodeAresGladios,
+  'OAK Network': chainOAK,
+  Odyssey: nodeAresOdyssey,
+  'OLI Parachain': chainOLI,
+  OmniBTC: chainOmniBTC,
   'OPAL by UNIQUE': chainOpal,
   'OriginTrail Parachain': chainOriginTrail,
   'OriginTrail Parachain Testnet': chainOriginTrailTestnet,
@@ -360,17 +405,21 @@ export const chainLogos = Object.entries({
   'RioChain CC-1': nodeRiochain,
   'RioChain Staging': nodeRiochain,
   Robonomics: nodeRobonomics,
+  Rocfinity: chainRocfinity,
   Rococo: chainRococo,
   Sherpax: nodeSherpax,
   'Sherpax Testnet': nodeSherpax,
   Shiden: chainShiden,
   SingLavender: nodeSingLavender,
   SkyeKiwi: chainSkyeKiwi,
+  'Snow Kusama': nodeSnow,
   soonsocial: nodeSoonsocial,
   soonsocialX: nodeSoonsocialX,
   SORA: nodeSora,
   'SORA Kusama': nodeSora,
+  'SORA Rococo': nodeSora,
   Spanner: chainSpanner,
+  Stagex: nodeTotem,
   Statemine: nodeStatemine,
   'Statemine Test': nodeStatemine,
   'Statemint Test': nodeStatemine,
@@ -384,6 +433,7 @@ export const chainLogos = Object.entries({
   subsocial: nodeSubsocial,
   subsocialX: nodeSubsocialX,
   subspace: nodeSubspace,
+  Subzero: nodeZero,
   swapdex: nodeSwapdex,
   t0rn: chainT0rn,
   Tick: chainRococoTick,
@@ -398,12 +448,15 @@ export const chainLogos = Object.entries({
   UNIQUE: chainUnique,
   'Unit Network': nodeUnitv,
   Unorthodox: chainUnorthodox,
+  'Vara Network': chainVara,
   VirtoRococo: chainVirto,
   Vln: nodeVln,
   'VLN PC': nodeVln,
   Wapex: nodeTotem,
+  'Watr Network': chainWatr,
   'Web3Games Plum': nodeWeb3games,
   Westend: nodeWestend,
+  'Westend Collectives': chainWestendColl,
   Westlake: nodeWestlake,
   Westmint: nodeStatemine,
   'Westmint Test': nodeStatemine,
@@ -419,15 +472,18 @@ export const chainLogos = Object.entries({
 export const nodeLogos = Object.entries({
   'Acala Node': chainAcala,
   'Ajuna Node': nodeAjuna,
+  Amplitude: chainAmplitude,
   'Apron Node': nodeApron,
   'Apron Parachain Collator': nodeApron,
   Arctic: nodeArctic,
   'Ares Gladios': nodeAresGladios,
   'Ares Node': nodeAres,
+  'Ares Odyssey': nodeAresOdyssey,
   'Ares Parachain Collator': nodeAres,
   Astar: nodeAstar,
   'Automata ContextFree Node': nodeAutomata,
   'Automata Node': nodeAutomata,
+  Aventus: nodeAventus,
   'Bajun Node': nodeBajun,
   Basilisk: nodeBasilisk,
   'Beast Node': nodeBeast,
@@ -441,6 +497,8 @@ export const nodeLogos = Object.entries({
   Centrifuge: nodeCentrifuge,
   'centrifuge chain': nodeCentrifuge,
   'Centrifuge Chain Node': nodeCentrifuge,
+  'CESS Testnet': nodeCESS,
+  ChainOLI: nodeChainOLI,
   'ChainX Node': nodeChainx,
   'Cherry Mainnet': chainCherryNetworkMainnet,
   'Cherry Testnet': chainCherryNetworkTestnet,
@@ -453,6 +511,8 @@ export const nodeLogos = Object.entries({
   crust: nodeCrust,
   'Crust Collator': nodeCrust,
   'Crust Maxwell': nodeCrustMaxwell,
+  'Crust Testnet': nodeCrustParachain,
+  'DAO IPCI': nodeIPCI,
   darwinia: nodeDarwinia,
   'darwinia crab': nodeCrab,
   'darwinia parachain': nodeDarwinia,
@@ -477,19 +537,26 @@ export const nodeLogos = Object.entries({
   'GamePower Node': nodeGamePower,
   GEEK: nodeGeek,
   Geminis: chainGeminis,
+  'GM Collator': chainGM,
   'Halongbay Parachain Collator': nodePolkaFoundry,
   hanonycash: nodeHanonycash,
+  Helixstreet: nodeHelixstreet,
   'Idavoll Node': nodeIdavoll,
   'Imbue Node': nodeImbue,
   'Integritee Collator': nodeIntegritee,
   'Integritee Node': nodeIntegritee,
   Interlay: chainInterlay,
   'InvArch Brainstorm Node': chainBrainstorm,
+  'InvArch Tinkernet Node': chainTinker,
   IpseTestnet: nodeIpse,
+  'Jaz Node': nodeJaz,
   'Joystream Node': nodeJoystream,
   Kabocha: nodeKabocha,
+  'Kabocha (kabsoup)': nodeKabocha,
   Kerria: nodeParallel,
   'Kerria Dev': nodeParallel,
+  Khala: nodeKhala,
+  'Khala Node': nodeKhala,
   KICO: chainKico,
   KILT: nodeKilt,
   'KILT Local': nodeKilt,
@@ -503,11 +570,14 @@ export const nodeLogos = Object.entries({
   'Laminar Node': nodeLaminar,
   'Listen Network': chainListen,
   'Litentry node': nodeLitentry,
+  'logion Collator': chainLogion,
+  'Logion Node': chainLogion,
   'mandala node': chainAcala,
   'Manta Node': nodeManta,
   'Manta Parachain Collator': nodeManta,
   MathChain: nodeMath,
   'mathChain-galois': nodeMath,
+  'MD5 Network': nodeMd5,
   minix: nodeMinix,
   Moonrock: nodeMoonrock,
   'Moonsama Development': chainMoonsamaDevelopment,
@@ -517,6 +587,7 @@ export const nodeLogos = Object.entries({
   'NFTMart Testnet': nodeNFTMart,
   'node-template': nodeSubstrate,
   'Nodle Chain Node': nodeNodle,
+  OmniBTC: nodeOmniBTC,
   'Opal Node': nodeUniqueWestend,
   'Opportunity Standalone Testnet': nodeOpportunity,
   Pangolin: nodePangolin,
@@ -536,9 +607,6 @@ export const nodeLogos = Object.entries({
   'PHOENIX Node': nodePhoenix,
   'Pichiu Node': nodePichiu,
   'Pioneer Network Collator Node': nodePioneerNetwork,
-  Plasm: nodePlasm,
-  'Plasm Node': nodePlasm,
-  'Plasm Parachain Collator': nodePlasm,
   'Polkadex Node': nodePolkadex,
   'polkadot-js': nodePolkadotJs,
   'PolkaFoundry Node': nodePolkaFoundry,
@@ -552,11 +620,13 @@ export const nodeLogos = Object.entries({
   'Rio Defi Chain Node': nodeRiochain,
   'RioChain Staging': nodeRiochain,
   robonomics: nodeRobonomics,
+  Rocfinity: nodeRocfinity,
   Sakura: nodeSakura,
   Shadow: nodeShadow,
   sherpax: nodeSherpax,
   'Shiden Collator': chainShiden,
   'SingLavender Parachain Collator': nodeSingLavender,
+  Snow: nodeSnow,
   Sora: nodeSora,
   Stafi: nodeStafi,
   'Stafi Node': nodeStafi,
@@ -606,9 +676,11 @@ export const nodeLogos = Object.entries({
 
 // Alphabetical overrides based on the actual specName
 export const specLogos = Object.entries({
+  oak: chainOAK,
   shell: nodeShell,
   statemine: nodeStatemine,
   statemint: nodeStatemine,
+  turing: chainTuring,
   westmint: nodeStatemine
 }).reduce<Record<string, unknown>>((logos, [spec, logo]) => ({
   ...logos,
@@ -625,11 +697,14 @@ export const namedLogos: Record<string, unknown> = {
   aleph: chainAleph,
   alexander: nodePolkadot,
   altair: chainAltair,
+  amplitude: chainAmplitude,
   arctic: nodeArctic,
   'Ares Gladios': nodeAresGladios,
+  'Ares Odyssey': nodeAresOdyssey,
   astar: chainAstar,
   automata: nodeAutomata,
   'automata-contextfree': nodeAutomata,
+  aventus: chainAventus,
   bajun: nodeBajun,
   basilisk: nodeBasilisk,
   beast: nodeBeast,
@@ -637,9 +712,12 @@ export const namedLogos: Record<string, unknown> = {
   'Bifrost Stage Testnet': nodeBifrost,
   bitcountry: nodeBitCountry,
   bitcountryPioneer: nodePioneerNetwork,
+  bitgreen: chainBitgreen,
   brainstorm: chainBrainstorm,
   calamari: nodeCalamari,
   centrifuge: nodeCentrifuge,
+  cess: nodeCESS,
+  chainoli: nodeChainOLI,
   chainx: nodeChainx,
   cherry: chainCherryNetworkMainnet,
   charcoal: nodeCentrifuge,
@@ -653,6 +731,7 @@ export const namedLogos: Record<string, unknown> = {
   'crown-sterling': chainCrownSterling,
   crust: nodeCrust,
   'Crust Maxwell': nodeCrustMaxwell,
+  'Crust Testnet': nodeCrustParachain,
   crustParachain: nodeCrustParachain,
   'Dali Testnet (Rococo Relay)': chainRococoDali,
   DaliTestnet: nodeDaliTestnet,
@@ -666,6 +745,7 @@ export const namedLogos: Record<string, unknown> = {
   eave: nodeEave,
   edgeware: nodeEdgeware,
   efinity: nodeEfinity,
+  Eggnet: chainEggnet,
   empty: emptyLogo,
   encointer: nodeEncointer,
   equilibrium: chainEquilibrium,
@@ -676,19 +756,24 @@ export const namedLogos: Record<string, unknown> = {
   geek: nodeGeek,
   geminis: chainGeminis,
   genshiro: chainGenshiro,
+  gm: chainGM,
   halongbay: nodePolkaFoundry,
   hanonycash: nodeHanonycash,
   heiko: chainParallel,
+  helixstreet: nodeHelixstreet,
   hydra: chainSnakenet,
   idavoll: nodeIdavoll,
   imbue: nodeImbue,
   integritee: nodeIntegritee,
-  interbtc: nodeInterBTC,
   interlay: chainInterlay,
+  'interlay-testnet': chainInterlay,
+  ipci: nodeIPCI,
   ipse: nodeIpse,
+  jaz: nodeJaz,
   joystream: nodeJoystream,
   jupiter: nodeJupiter,
   kabocha: nodeKabocha,
+  'Kabocha (kabsoup)': nodeKabocha,
   kapex: nodeTotem,
   karura: chainKarura,
   kerria: nodeParallel,
@@ -696,6 +781,7 @@ export const namedLogos: Record<string, unknown> = {
   kico: chainKico,
   kilt: nodeKilt,
   kintsugi: chainKintsugi,
+  'kintsugi-testnet': chainKintsugi,
   klugdossier: nodeKlug,
   kpron: nodeApron,
   kulupu: nodeKulupu,
@@ -703,10 +789,10 @@ export const namedLogos: Record<string, unknown> = {
   kusari: nodeKusari,
   kylin: nodeKylin,
   laminar: nodeLaminar,
-  lego: nodeTotem,
   listen: chainListen,
   litentry: nodeLitentry,
   litmus: nodeLitmus,
+  logion: chainLogion,
   loomNetwork: nodeLoomNetwork,
   mangata: chainMangata,
   manta: nodeManta,
@@ -719,9 +805,12 @@ export const namedLogos: Record<string, unknown> = {
   moonrock: nodeMoonrock,
   moonshadow,
   mybank,
+  myriad: chainMyriad,
   nftmart: nodeNFTMart,
   nodle: nodeNodle,
-  odyssey: nodeAresGladios,
+  oak: chainOAK,
+  odyssey: nodeAresOdyssey,
+  omnibtc: nodeOmniBTC,
   opal: nodeUniqueWestend,
   opportunity: nodeOpportunity,
   'origintrail-parachain': chainOriginTrail,
@@ -732,7 +821,6 @@ export const namedLogos: Record<string, unknown> = {
   phoenix: nodePhoenix,
   picasso: chainPicasso,
   pichiu: nodePichiu,
-  plasm: nodePlasm,
   polkadex: nodePolkadex,
   polkadot: nodePolkadot,
   polkafoundry: nodePolkaFoundry,
@@ -744,12 +832,14 @@ export const namedLogos: Record<string, unknown> = {
   realis: nodeRealis,
   riochain: nodeRiochain,
   robonomics: nodeRobonomics,
-  rocfinity: nodeEfinity,
+  rocfinity: nodeRocfinity,
   rocky: nodeCrust,
   rococo: chainRococo,
   rococoAcala: chainAcala,
+  rococoAmplitude: chainAmplitude,
   rococoApron: nodeApron,
   rococoAres: nodeAres,
+  rococoAventus: nodeAventus,
   rococoBajun: nodeBajun,
   rococoBasilisk: nodeBasilisk,
   rococoBifrost: nodeBifrost,
@@ -758,6 +848,7 @@ export const namedLogos: Record<string, unknown> = {
   rococoCatalyst: nodeCentrifuge,
   rococoChainX: nodeChainx,
   rococoClover: nodeClover,
+  rococoConfti: nodeConfti,
   rococoContracts: chainRococoContracts,
   rococoCrab: nodeCrab,
   rococoCrust: nodeCrust,
@@ -766,14 +857,17 @@ export const namedLogos: Record<string, unknown> = {
   rococoDolphin: nodeDolphin,
   rococoEave: nodeEave,
   rococoEncointer: nodeEncointer,
+  rococoFrequency: nodeFrequency,
   rococoGalital: nodeGalital,
   rococoGenshiro: chainGenshiro,
-  rococoHydrate: chainHydrate,
+  rococoHelixstreet: nodeHelixstreet,
+  rococoHydraDX: chainHydrate,
   rococoIdavoll: nodeIdavoll,
   rococoImbue: nodeImbue,
   rococoIntegritee: nodeIntegritee,
   rococoInterBTC: chainInterlay,
   rococoJupiter: nodeJupiter,
+  rococoKabocha: nodeKabocha,
   rococoKilt: nodeKilt,
   rococoKonomi: nodeKonomi,
   rococoKylin: nodeKylin,
@@ -783,6 +877,7 @@ export const namedLogos: Record<string, unknown> = {
   rococoMangata: chainMangata,
   rococoManta: nodeManta,
   rococoMathChain: nodeMath,
+  rococoMd5: nodeMd5,
   rococoMoonrock: nodeMoonrock,
   rococoMoonsama: chainMoonsamaDevelopment,
   rococoNodle: nodeNodle,
@@ -791,16 +886,18 @@ export const namedLogos: Record<string, unknown> = {
   rococoParami: nodeParami,
   rococoPhala: nodePhala,
   rococoPhoenix: nodePhoenix,
-  rococoPlasm: nodePlasm,
   rococoPolkaFoundry: nodePolkaFoundry,
   rococoPrism: nodePrism,
   rococoSingLavender: nodeSingLavender,
+  rococoSora: nodeSora,
   rococoSpreehafen: chainRoccoDataHighway,
   rococoStandard: chainStandard,
   rococoStatemint: nodeStatemine,
   rococoSubDAO: nodeSubDAO,
   rococoSubsocial: nodeSoonsocialX,
+  rococoSubzero: nodeZero,
   rococoTick: chainRococoTick,
+  rococoTinkernet: chainTinker,
   rococoTrack: chainRococoTrack,
   rococoTrick: chainRococoTrick,
   rococoTrustBase: nodeTrustBase,
@@ -808,6 +905,7 @@ export const namedLogos: Record<string, unknown> = {
   rococoUnitv: nodeUnitv,
   rococoVirto: chainVirto,
   rococoVln: nodeVln,
+  rococoWatr: chainWatr,
   rococoZeitgeist: nodeZeitgeist,
   rococoZenlink: nodeZenlink,
   sakura: nodeSakura,
@@ -819,6 +917,7 @@ export const namedLogos: Record<string, unknown> = {
   singLavender: nodeSingLavender,
   skyekiwi: chainSkyeKiwi,
   snakenet: chainSnakenet,
+  snow: nodeSnow,
   snowbridge: chainSnowbridge,
   soonsocial: nodeSoonsocial,
   sora: nodeSora,
@@ -826,6 +925,7 @@ export const namedLogos: Record<string, unknown> = {
   sora_ksm: nodeSora,
   spanner: chainSpanner,
   stafi: nodeStafi,
+  stagex: nodeTotem,
   statemine: nodeStatemine,
   statemint: nodeStatemine,
   subdao: nodeSubDAO,
@@ -839,14 +939,16 @@ export const namedLogos: Record<string, unknown> = {
   subspace: nodeSubspace,
   'subspace-farmnet': nodeSubspace,
   'subspace-gemini-1': nodeSubspace,
+  'subspace-gemini-2a': nodeSubspace,
   substrate: nodeSubstrate,
   substrateContractsNode: nodeSubstrateContractsNode,
   swapdex: nodeSwapdex,
   t0rn: chainT0rn,
   tanganika: chainKusamaDataHighway,
+  ternoa: nodeTernoa,
   'ternoa-alphanet': nodeTernoa,
-  'ternoa-mainnet': nodeTernoa,
   'ternoa-testnet': nodeTernoa,
+  tinker: chainTinker,
   'totem-parachain': nodeTotem,
   trustbase: nodeTrustBase,
   turing: chainTuring,
@@ -855,10 +957,11 @@ export const namedLogos: Record<string, unknown> = {
   unitv: nodeUnitv,
   unorthodox: chainUnorthodox,
   vanilla: nodeParallel,
+  vara: nodeVara,
   vln: nodeVln,
-  wapex: nodeTotem,
   web3games: nodeWeb3games,
   westend: nodeWestend,
+  westendCollectives: chainWestendColl,
   westendPichiu: nodePichiu,
   westendStandard: chainStandard,
   westlake: nodeWestlake,
@@ -880,6 +983,7 @@ export const externalLogos: Record<string, unknown> = {
   dotreasury: externalDotreasury,
   dotscanner: externalDotScanner,
   kodadot: externalKodaDot,
+  polkaholic: externalPolkaholic,
   polkascan: externalPolkascan,
   polkassembly: externalPolkassembly,
   polkastats: externalPolkastats,
