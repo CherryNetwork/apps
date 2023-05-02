@@ -36,7 +36,6 @@ export const testChains: EndpointOption[] = [
   },
   {
     info: 'cherry evm',
-    paraId: 254,
     text: 'Cherry EVM Parachain',
     providers: {
       'Cherry Labs': 'wss://evm-testnet.seed.cherrylabs.org/'
