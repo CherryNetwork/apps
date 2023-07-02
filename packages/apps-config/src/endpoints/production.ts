@@ -48,7 +48,7 @@ export const prodChains: EndpointOption[] = [
     info: 'cherry',
     text: 'Cherry Relay Network',
     providers: {
-      'Cherry Labs': 'wss://seeder-2.cherry.place'
+      'Cherry Labs': 'wss://mainnet.seed.cherrylabs.org/'
     }
   },
   // {
