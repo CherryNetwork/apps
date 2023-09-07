@@ -51,6 +51,13 @@ export const prodChains: EndpointOption[] = [
       'Cherry Labs': 'wss://mainnet.seed.cherrylabs.org/'
     }
   },
+  {
+    info: 'cherry evm',
+    text: 'Cherry EVM Parachain',
+    providers: {
+      'Cherry Labs': 'wss://evm-mainnet.seed.cherrylabs.org/'
+    }
+  },
   // {
   //   info: 'competitors-club',
   //   text: 'Competitors Club',
