@@ -18,6 +18,7 @@ import chainAventus from './chains/aventus.svg';
 import chainBitgreen from './chains/bitgreen.png';
 import chainBrainstorm from './chains/brainstorm.png';
 import chainCherryNetworkMainnet from './chains/cherry.png';
+import chainCherryNetworkEvmMainnet from './chains/cherry.png';
 import chainCoinversation from './chains/coinversation.png';
 import chainCompetitorsClub from './chains/competitors-club.png';
 import chainComposableFinance from './chains/composableFinance.png';
@@ -111,7 +112,7 @@ import nodeCentrifuge from './nodes/centrifuge.png';
 import nodeCESS from './nodes/cess.png';
 import nodeChainx from './nodes/chainx.svg';
 import chainCherryNetworkTestnet from './nodes/cherry.png';
-import chainCherryEVMTestnet from './nodes/cherry.png';
+import chainCherryNetworkEvmTestnet from './nodes/cherry.png';
 import nodeClover from './nodes/clover.svg';
 import nodeCoinversation from './nodes/coinversation.png';
 import nodeCompetitorsClub from './nodes/competitors-club.png';
@@ -271,8 +272,9 @@ export const chainLogos = Object.entries({
   ChainOLI: chainOLI,
   ChainX: nodeChainx,
   'Cherry Relay Mainnet': chainCherryNetworkMainnet,
+  'Cherry EVM Mainnet': chainCherryNetworkEvmMainnet,
   'Cherry Relay Testnet': chainCherryNetworkTestnet,
-  'Cherry EVM Testnet': chainCherryEVMTestnet,
+  'Cherry EVM Testnet': chainCherryNetworkEvmTestnet,
   'Charcoal Testnet': nodeCentrifuge,
   Coinversation: chainCoinversation,
   'Competitors Club': chainCompetitorsClub,
@@ -501,8 +503,9 @@ export const nodeLogos = Object.entries({
   ChainOLI: nodeChainOLI,
   'ChainX Node': nodeChainx,
   'Cherry Mainnet': chainCherryNetworkMainnet,
+  'Cherry EVM Parachain Mainnet': chainCherryNetworkEvmMainnet,
   'Cherry Testnet': chainCherryNetworkTestnet,
-  'Cherry EVM Parachain Testnet': chainCherryEVMTestnet,
+  'Cherry EVM Parachain Testnet': chainCherryNetworkEvmTestnet,
   'Clover Node': nodeClover,
   Coinversation: nodeCoinversation,
   'Competitors Club': nodeCompetitorsClub,

@@ -178,6 +178,7 @@ const nodeBitCountry = '#191a2e';
 const nodeBifrost = '#5a25f0';
 const nodeCentrifuge = '#fcc367';
 const nodeCherryMainnet = '#EA27C3';
+const nodeCherryEvmMainnet = '#EA27C3';
 const nodeCherryTestnet = '#EA27C3';
 const nodeCherryEvmTestnet = '#EA27C3';
 const nodeCoinversation = '#e6017a';
@@ -298,6 +299,7 @@ export const chainColors: Record<string, string> = Object.entries({
   ChainOLI: chainOLI,
   ChainX: chainChainx,
   'Cherry Relay Mainnet': nodeCherryMainnet,
+  'Cherry EVM Mainnet': nodeCherryEvmMainnet,
   'Cherry Relay Testnet': nodeCherryTestnet,
   'Cherry EVM Testnet': nodeCherryEvmTestnet,
   Clover: chainClover,
@@ -515,6 +517,7 @@ export const nodeColors = Object.entries({
   'centrifuge chain': nodeCentrifuge,
   'Centrifuge Chain Node': nodeCentrifuge,
   'Cherry Network Mainnet': nodeCherryMainnet,
+  'Cherry EVM Mainnet': nodeCherryEvmMainnet,
   'Cherry Network Testnet': nodeCherryTestnet,
   'Cherry EVM Testnet': nodeCherryEvmTestnet,
   'Circuit Collator': chainT0rn,

@@ -22,6 +22,7 @@
   "rpc.prod.centrifuge": "Centrifuge Standalone [Archived]",
   "rpc.prod.chainx": "ChainX",
   "rpc.prod.cherry": "Cherry Network Mainnet",
+  "rpc.evm-prod.cherry": "Cherry EVM Mainnet",
   "rpc.prod.coinversation": "Coinversation",
   "rpc.prod.competitors-club": "Competitors Club",
   "rpc.prod.crab": "Darwinia Crab",
