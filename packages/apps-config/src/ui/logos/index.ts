@@ -19,6 +19,7 @@ import chainBitgreen from './chains/bitgreen.png';
 import chainBrainstorm from './chains/brainstorm.png';
 import chainCherryNetworkMainnet from './chains/cherry.png';
 import chainCherryNetworkEvmMainnet from './chains/cherry.png';
+import emptyLogo from './chains/cherry.png';
 import chainCoinversation from './chains/coinversation.png';
 import chainCompetitorsClub from './chains/competitors-club.png';
 import chainComposableFinance from './chains/composableFinance.png';
@@ -232,7 +233,6 @@ import nodeZCloak from './nodes/zCloak.svg';
 import nodeZeitgeist from './nodes/zeitgeist.png';
 import nodeZenlink from './nodes/zenlink.svg';
 import nodeZero from './nodes/zero.svg';
-import emptyLogo from './empty.svg';
 // last-resort fallback, just something empty
 
 // Alphabetical overrides based on the actual matched chain name
